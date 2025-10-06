@@ -7,52 +7,6 @@
       <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/style.css">
     </head>
 
- <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        form {
-            max-width: 500px;
-              margin: 80px auto;
-              padding: 60px 40px;
-              border: none;
-              border-radius: 10px;
-              background-color: #fff;
-              box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-        }
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: bold;
-        }
-        input, select {
-             width: 100%;
-              padding: 10px;
-              border: 1px solid #ccc;
-              border-radius: 8px;
-              margin-bottom: 20px;
-        }
-        button {
-             width: 100%;
-              padding: 12px;
-              background-color: #007bff;
-              color: white;
-              border: none;
-              border-radius: 8px;
-              font-weight: 500;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        h2{
-         color: #333;
-           font-size: 28px;
-           font-weight: 600;
-           text-align: center;
-           margin-bottom: 30px;
-        }
-    </style>
 </head>
 <body>
 
