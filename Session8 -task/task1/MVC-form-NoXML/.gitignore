@@ -3,6 +3,10 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+.idea
+.smarttomcat
+.gitignore
+
 
 ### Eclipse ###
 .apt_generated
