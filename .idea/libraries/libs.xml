@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Session2 -task/Inversion of Control with XML Configuration/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Session2 -task/Inversion of Control with XML Configuration/libs" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/Session2 -task/Inversion of Control with XML Configuration/libs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/Session2 -task/Inversion of Control with XML Configuration/libs" recursive="false" type="SOURCES" />
+  </library>
+</component>

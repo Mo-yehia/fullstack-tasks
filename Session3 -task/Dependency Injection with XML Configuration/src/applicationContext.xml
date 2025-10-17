@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!-- Define your beans here -->
+    <bean id="draw2d" class="com.task1.Draw2d"/>
+
+    <!-- Constructor injection -->
+    <bean id="circle"
+          class="com.task1.Circle">
+          <constructor-arg ref="draw2d"/>
+    </bean>
+
+    <!-- Setter injection -->
+    <bean id="square"
+          class="com.task1.Square">
+          <property name="Draw2d" ref="draw2d"/>   <!-- property name is the setter method name without "set" keyword -->
+    </bean>
+
+
+    <context:property-placeholder location="classpath:application.properties"/>
+
+    <bean id="databaseBean" class="com.task2.DatabaseOperation">
+        <property name="url" value="${database.url}"/>
+        <property name="username" value="${database.username}"/>
+        <property name="password" value="${database.password}"/>
+    </bean>
+
+    <bean id="car" class="com.task2.Car">
+        <constructor-arg ref="databaseBean"/>
+    </bean>
+
+    <bean id="plane" class="com.task2.Plane">
+        <property name="DatabaseOperation" ref="databaseBean"/>
+    </bean>
+
+
+</beans>
+
+
+
+
+
