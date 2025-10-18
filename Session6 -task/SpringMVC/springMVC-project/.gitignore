@@ -3,9 +3,10 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
-.idea
+.idea/
+.smarttomcat/
 .gitignore
-.smarttomcat
+*.iml
 
 
 ### Eclipse ###
