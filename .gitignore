@@ -22,3 +22,7 @@ build/
 ### OS files ###
 .DS_Store
 Thumbs.db
+
+.gitignore
+config.bat
+node_modules
